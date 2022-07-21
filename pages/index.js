@@ -96,7 +96,7 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2">
               <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
-                <Image src="../images/hero-image.jpeg" layout="fill" />
+                <Image src="../images/hero-image.jpeg" layout="fill" alt='' />
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function Home() {
           <div className="flex grid h-full grid-cols-12 gap-10 pb-10 mt-8 sm:mt-16">
             <div className="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
               <Link href="#_">
-                <Image className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" src="images/quench-satisfying.jpg" layout='fill'/>
+                <Image className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" src="images/quench-satisfying.jpg" layout='fill' alt='' />
               </Link>
               <div className="relative z-20 w-full h-auto py-8 text-white bg-purple-500 border-t-0 border-yellow-200 px-7">
                 <Link href="#_">
@@ -124,7 +124,7 @@ export default function Home() {
             </div>
             <div className="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
               <Link href="#_">
-                <Image className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" src="images/orange.jpg" layout='fill' />
+                <Image className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" src="images/orange.jpg" layout='fill' alt='' />
               </Link>
               <div className="relative z-20 w-full h-auto py-8 text-white bg-blue-400 border-t-0 border-yellow-200 px-7">
                 <Link href="#_">
@@ -136,7 +136,7 @@ export default function Home() {
             </div>
             <div className="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group sm:col-span-12 xl:col-span-4 sm:flex-row xl:flex-col">
               <Link href="#_">
-                <Image className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" src="images/gbc.jpg')" layout='fill' />
+                <Image className="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" src="images/gbc.jpg')" layout='fill' alt='' />
               </Link>
               <div className="relative z-20 flex flex-col items-start justify-center w-full h-auto py-8 text-white bg-yellow-400 border-t-0 border-yellow-200 sm:h-full xl:h-auto px-7">
                 <Link href="#_">
@@ -150,7 +150,7 @@ export default function Home() {
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <Link href="#_">
                   <a className="block transition duration-200 ease-out transform hover:scale-110">
-                    <Image className="object-cover w-full shadow-sm max-h-56" src="images/workstation.jpg" layout='fill' />
+                    <Image className="object-cover w-full shadow-sm max-h-56" src="images/workstation.jpg" layout='fill' alt='' />
                   </a>
                 </Link>
                 <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <Link href="#_">
                   <a className="block transition duration-200 ease-out transform hover:scale-110">
-                    <Image className="object-cover w-full shadow-sm max-h-56" src="images/snacks.jpg" layout='fill' />
+                    <Image className="object-cover w-full shadow-sm max-h-56" src="images/snacks.jpg" layout='fill' alt='' />
                   </a>
                 </Link>
                 <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
@@ -178,7 +178,7 @@ export default function Home() {
               <div className="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
                 <Link href="#_">
                   <a className="block transition duration-200 ease-out transform hover:scale-110">
-                    <Image className="object-cover w-full shadow-sm max-h-56" src="images/book-design.jpg" layout='fill' />
+                    <Image className="object-cover w-full shadow-sm max-h-56" src="images/book-design.jpg" layout='fill' alt='' />
                   </a>
                 </Link>
                 <div className="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
@@ -211,7 +211,7 @@ export default function Home() {
                     <div className="flex flex-col items-start justify-start w-full h-auto mb-12 lg:w-1/3 lg:mb-0">
                       <div className="flex items-center justify-center">
                         <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                          <Image src="images/photo-1527980965255-d3b416303d12.avif" className="object-cover w-full h-full" layout='fill' />
+                          <Image src="images/photo-1527980965255-d3b416303d12.avif" className="object-cover w-full h-full" layout='fill' alt='' />
                         </div>
                         <div className="flex flex-col items-start justify-center">
                           <h4 className="font-bold text-gray-800">John Doe</h4>
@@ -223,7 +223,7 @@ export default function Home() {
                     <div className="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
                       <div className="flex items-center justify-center">
                         <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                          <Image src="images/photo-1544725176-7c40e5a71c5e.avif" className="object-cover w-full h-full" layout='fill' />
+                          <Image src="images/photo-1544725176-7c40e5a71c5e.avif" className="object-cover w-full h-full" layout='fill' alt='' />
                         </div>
                         <div className="flex flex-col items-start justify-center">
                           <h4 className="font-bold text-gray-800">Jane Doe</h4>
@@ -237,7 +237,7 @@ export default function Home() {
                       <div className="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
                         <div className="flex items-center justify-center">
                           <div className="w-16 h-16 mr-4 overflow-hidden bg-gray-200 rounded-full">
-                            <Image src="images/photo-1545167622-3a6ac756afa4.avif" className="object-cover w-full h-full" layout='fill'/>
+                            <Image src="images/photo-1545167622-3a6ac756afa4.avif" className="object-cover w-full h-full" layout='fill' alt='' />
                           </div>
                           <div className="flex flex-col items-start justify-center">
                             <h4 className="font-bold text-gray-800">John Smith</h4>
@@ -294,13 +294,13 @@ export default function Home() {
                       <p>Absolutely, you can try out tails for free; however, if you wish to access all the components and export the page you'll need to upgrade your account.</p>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">Where do I go to upgrade my account?</h5>
                       <p>
-                          You can upgrade your account by visiting <a href="https://devdojo.com/pro" className="text-indigo-500 underline">The Pro Upgrade Page</a>. You will also gain access to many other applications and sections of the site.
-                          <a href="https://help.hellonext.co/faq/startup-eligibility/" target="_blank">here</a>.
+                          You can upgrade your account by visiting <Link  href="https://devdojo.com/pro" rel="noreferrer"><a className="text-indigo-500 underline">The Pro Upgrade Page</a>.</Link> You will also gain access to many other applications and sections of the site.
+                          <Link href="https://help.hellonext.co/faq/startup-eligibility/" rel="noreferrer" target="_blank"><a>here</a></Link>.
                       </p>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">How long will I have access to Tails</h5>
                       <p>
                           You will have unlimited access to all your pre-built pages; however, if you want to be able to download and export your pages, you'll need a pro account.
-                          <a href="https://paddle.com" target="_blank">Paddle</a> for processing payments.
+                          <Link href="https://paddle.com" rel="noreferrer" target="_blank"><a>Paddle</a></Link> for processing payments.
                       </p>
                   </div>
                   <div>
