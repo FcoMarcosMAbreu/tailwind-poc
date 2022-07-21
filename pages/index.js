@@ -294,7 +294,7 @@ export default function Home() {
                       <p>Absolutely, you can try out tails for free; however, if you wish to access all the components and export the page you'll need to upgrade your account.</p>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">Where do I go to upgrade my account?</h5>
                       <p>
-                          You can upgrade your account by visiting <Link  href="https://devdojo.com/pro" rel="noreferrer"><a className="text-indigo-500 underline">The Pro Upgrade Page</a>.</Link> You will also gain access to many other applications and sections of the site.
+                          You can upgrade your account by visiting <Link  href="https://devdojo.com/pro" rel="noreferrer"><a className="text-indigo-500 underline">The Pro Upgrade Page</a></Link>. You will also gain access to many other applications and sections of the site.
                           <Link href="https://help.hellonext.co/faq/startup-eligibility/" rel="noreferrer" target="_blank"><a>here</a></Link>.
                       </p>
                       <h5 className="mt-10 mb-3 font-semibold text-gray-900">How long will I have access to Tails</h5>
